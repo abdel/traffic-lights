@@ -1,0 +1,38 @@
+{
+  "name": "traffic-lights",
+  "version": "1.0.0",
+  "description": "Basic traffic lights simulation in an intersection",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdel/traffic-lights.git"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "tape": "^4.8.0",
+    "tape-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "eslint": "eslint .",
+    "pretest": "npm run eslint",
+    "test": "tape test/**/*.js"
+  },
+  "keywords": [
+    "traffic",
+    "lights",
+    "intersection",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Abdelrahman Ahmed",
+  "license": "MIT"
+}
