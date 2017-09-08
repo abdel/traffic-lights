@@ -30,3 +30,6 @@ npm install
 # Start the application
 npm start
 ```
+
+### Testing
+The [tape](https://github.com/substack/tape) framework is used for testing and assertions. The `npm test` command checks for linting errors, then executes the tests available inside the `test/` directory.
