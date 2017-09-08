@@ -1,5 +1,7 @@
 # traffic-lights
 
+[![Build Status](https://travis-ci.com/abdel/traffic-lights.svg?token=t7xyTiRR4wszKxRKqRLP&branch=master)](https://travis-ci.com/abdel/traffic-lights)
+
 ## Introduction
 A basic traffic lights simulation in an intersection. The traffic lights change automatically every 5 minutes, with a 30 second delay between changing from yellow to red.
 
