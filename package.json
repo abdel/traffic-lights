@@ -13,6 +13,7 @@
     "tape-promise": "^2.0.1"
   },
   "devDependencies": {
+    "coveralls": "^2.13.1",
     "eslint": "^4.6.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
