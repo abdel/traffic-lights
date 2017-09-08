@@ -1,7 +1,6 @@
 # traffic-lights
 
 [![Build Status](https://travis-ci.com/abdel/traffic-lights.svg?token=t7xyTiRR4wszKxRKqRLP&branch=master)](https://travis-ci.com/abdel/traffic-lights)
-[![Dependency Status](https://dependencyci.com/github/abdel/traffic-lights/badge)](https://dependencyci.com/github/abdel/traffic-lights)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Introduction
