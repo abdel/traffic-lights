@@ -37,3 +37,44 @@ npm start
 
 ### Testing
 The [tape](https://github.com/substack/tape) framework is used for testing and assertions. The `npm test` command checks for linting errors, then executes the tests available inside the `test/` directory.
+
+## Sample Output
+
+The sample output below was generated with an initial state `northSouth: Green, eastWest: Red`.
+
+```
+01:09:42 northSouth: Green
+01:09:42 eastWest: Red
+01:09:42 northSouth: Yellow
+01:09:42 eastWest: Red
+01:10:12 northSouth: Red
+01:10:12 eastWest: Green
+01:14:42 northSouth: Red
+01:14:42 eastWest: Yellow
+01:15:12 northSouth: Green
+01:15:12 eastWest: Red
+01:19:42 northSouth: Yellow
+01:19:42 eastWest: Red
+01:20:12 northSouth: Red
+01:20:12 eastWest: Green
+01:24:42 northSouth: Red
+01:24:42 eastWest: Yellow
+01:25:12 northSouth: Green
+01:25:12 eastWest: Red
+01:29:42 northSouth: Yellow
+01:29:42 eastWest: Red
+01:30:12 northSouth: Red
+01:30:12 eastWest: Green
+01:34:42 northSouth: Red
+01:34:42 eastWest: Yellow
+01:35:12 northSouth: Green
+01:35:12 eastWest: Red
+01:39:42 northSouth: Yellow
+01:39:42 eastWest: Red
+01:40:12 northSouth: Red
+01:40:12 eastWest: Green
+01:44:42 northSouth: Red
+01:44:42 eastWest: Yellow
+01:45:12 northSouth: Green
+01:45:12 eastWest: Red
+```
